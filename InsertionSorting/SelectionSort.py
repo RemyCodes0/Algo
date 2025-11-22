@@ -8,11 +8,8 @@ for only the first n - 1 elements, rather than for all n elements? Give the best
 and worst-case running times of selection sort in theta -notation.
 """
 
-
-
-
 def selection_sort(arr):
-    n = len(arr)
+    n = len(arr)                
     for i in range(n - 1):
         min_value = i
 
